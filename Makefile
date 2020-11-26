@@ -5,3 +5,6 @@ all:
 
 clean:
 	rm -f engine.o test score a.out *~
+
+test: clean all
+	./test
